@@ -1,5 +1,17 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@typing/*": [
+        "typing/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ]
+    },
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": [
@@ -31,11 +43,5 @@
   "exclude": [
     "node_modules",
     "**/*.spec.ts"
-  ],
-  "baseUrl": ".",
-  "paths": {
-    "*": [
-      "src/*"
-    ]
-  }
+  ]
 }
