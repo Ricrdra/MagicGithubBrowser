@@ -22,7 +22,7 @@ const Browser = ({
                  }: BrowserProps) => {
   return (
     <Stack direction={'row'} spacing={1} alignItems={'center'} justifyContent={'center'}>
-      <TextField placeholder={'Search'} />
+      <TextField fullWidth placeholder={'Search'} />
       <IconButton>
         <Search />
       </IconButton>
